@@ -1,0 +1,13 @@
+height = float(input())
+weight = float(input())
+
+bmi = weight / (height * height)
+
+if bmi < 18.5:
+    status = "underweight"
+elif 18.5 <= bmi <= 24.9:
+    status = "normal weight"
+else:
+    status = "overweight"
+
+print(f"Your body mass index is: {bmi:.2f}, that is {status}.")

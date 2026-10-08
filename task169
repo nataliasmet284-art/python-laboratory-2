@@ -1,0 +1,7 @@
+number_str = input().strip()
+digit_str = input().strip()
+
+if digit_str in number_str:
+    print(True)
+else:
+    print(False)
